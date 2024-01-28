@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillows</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+</head>
+<!--utilizing a dark theme for my pages, including the navbar, collapsing itself once it is on a small screen size-->
+<body class="bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PILLOWS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lamp.html">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="more.html">Survey</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--created a div in order to have a margin class from BS, as well as using an img-thumbnail class to have a small border around the photos, and floating them on each side to create a more interesting layout across both large screens and stacking them as the screen gets smaller-->
+    <div class="m-4">
+    <!--source citation: https://pillows.com/blogs/pillow-talk/the-bizarre-history-of-pillows-->
+        <img src="https://cdn.shopify.com/s/files/1/0532/8673/1952/files/Screen_Shot_2022-05-17_at_12.40.22_PM.png?v=1652809412" width="650rem" class="img-thumbnail float-start" alt="A stone pillow">
+        <img src="https://cdn.shopify.com/s/files/1/0532/8673/1952/files/Screen_Shot_2022-05-17_at_12.42.53_PM.png?v=1652809509" width="650rem" class="img-thumbnail float-end" alt="A collection of wood pillows">
+        <img src="https://hankeringforhistory.com/wp-content/uploads/pillow-fight.jpg" width="650rem" class="img-thumbnail float-start" alt="A group of kids having a pillow fight">
+        <img src="https://cdn.shopify.com/s/files/1/0532/8673/1952/files/Screen_Shot_2022-05-17_at_12.41.58_PM.png?v=1652809487" width="650rem" class="img-thumbnail float-end" alt="A porcelain pillow">
+    </div>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
